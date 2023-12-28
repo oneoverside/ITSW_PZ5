@@ -1,0 +1,600 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/oneov/ontologies/2023/11/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/oneov/ontologies/2023/11/untitled-ontology-8">
+    <Prefix name="" IRI="http://www.semanticweb.org/oneov/ontologies/2023/11/untitled-ontology-8/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-8" IRI="http://www.semanticweb.org/oneov/ontologies/2023/11/untitled-ontology-8#"/>
+    <Declaration>
+        <Class IRI="#Attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Characteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Civilization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cultural_Heritage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Culture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epoch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Factor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Institution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Literature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#People"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thermin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Included"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#characterize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#created_first"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#had"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#introduced_the_concept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#was_after"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#was_before"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#was_typical_for"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#end_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#had"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#start_date"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ancient_Egypt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ancient_Greece"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antien_World"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bronze_Age"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#China"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Christian_Jurgensen_Thomsen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Culture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gabriel_de_Mortillier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hesiod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#India"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Iron_metallurgy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jens_Worso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khalib"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Making_Iron_Tools"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mesopotamia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meteoric_iron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Museum_of_National_Antiquities_in_Saint-Germain-en-Laye"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#National_Museum_of_Denmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Raw_Material_Reserves"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Southern_Europe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spread_Of_Iron_Metallurgy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stone_Age"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trading"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Western_Asia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#early_iron_age"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#poem_Works_and_Days"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="#Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cultural_Heritage"/>
+        <Class IRI="#Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Culture"/>
+        <Class IRI="#Civilization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Culture"/>
+        <Class IRI="#Factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Factor"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Institution"/>
+        <Class IRI="#Sources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Literature"/>
+        <Class IRI="#Sources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Civilization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#People"/>
+        <Class IRI="#Culture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class IRI="#Sources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poet"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Professor"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Ancient_Egypt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Culture"/>
+        <NamedIndividual IRI="#Ancient_Egypt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Ancient_Greece"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Culture"/>
+        <NamedIndividual IRI="#Ancient_Greece"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Civilization"/>
+        <NamedIndividual IRI="#Antien_World"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epoch"/>
+        <NamedIndividual IRI="#Bronze_Age"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Civilization"/>
+        <NamedIndividual IRI="#China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professor"/>
+        <NamedIndividual IRI="#Christian_Jurgensen_Thomsen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Culture"/>
+        <NamedIndividual IRI="#Culture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professor"/>
+        <NamedIndividual IRI="#Gabriel_de_Mortillier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poet"/>
+        <NamedIndividual IRI="#Hesiod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sources"/>
+        <NamedIndividual IRI="#Hesiod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epoch"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Factor"/>
+        <NamedIndividual IRI="#Iron_metallurgy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professor"/>
+        <NamedIndividual IRI="#Jens_Worso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#People"/>
+        <NamedIndividual IRI="#Khalib"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Characteristic"/>
+        <NamedIndividual IRI="#Making_Iron_Tools"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#Mesopotamia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attribute"/>
+        <NamedIndividual IRI="#Meteoric_iron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Characteristic"/>
+        <NamedIndividual IRI="#Meteoric_iron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institution"/>
+        <NamedIndividual IRI="#Museum_of_National_Antiquities_in_Saint-Germain-en-Laye"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Institution"/>
+        <NamedIndividual IRI="#National_Museum_of_Denmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Southern_Europe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Characteristic"/>
+        <NamedIndividual IRI="#Spread_Of_Iron_Metallurgy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Epoch"/>
+        <NamedIndividual IRI="#Stone_Age"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Culture"/>
+        <NamedIndividual IRI="#Trading"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Western_Asia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Thermin"/>
+        <NamedIndividual IRI="#early_iron_age"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cultural_Heritage"/>
+        <NamedIndividual IRI="#poem_Works_and_Days"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Literature"/>
+        <NamedIndividual IRI="#poem_Works_and_Days"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#Bronze_Age"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Iron_Age"/>
+        <NamedIndividual IRI="#Stone_Age"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#had"/>
+        <NamedIndividual IRI="#Ancient_Egypt"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#had"/>
+        <NamedIndividual IRI="#Ancient_Greece"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Included"/>
+        <NamedIndividual IRI="#Antien_World"/>
+        <NamedIndividual IRI="#Ancient_Egypt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Included"/>
+        <NamedIndividual IRI="#Antien_World"/>
+        <NamedIndividual IRI="#Ancient_Greece"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Included"/>
+        <NamedIndividual IRI="#Antien_World"/>
+        <NamedIndividual IRI="#Mesopotamia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#was_before"/>
+        <NamedIndividual IRI="#Bronze_Age"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#had"/>
+        <NamedIndividual IRI="#China"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describe"/>
+        <NamedIndividual IRI="#Christian_Jurgensen_Thomsen"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describe"/>
+        <NamedIndividual IRI="#Gabriel_de_Mortillier"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describe"/>
+        <NamedIndividual IRI="#Hesiod"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#had"/>
+        <NamedIndividual IRI="#India"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#characterize"/>
+        <NamedIndividual IRI="#Iron_metallurgy"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describe"/>
+        <NamedIndividual IRI="#Jens_Worso"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#created_first"/>
+        <NamedIndividual IRI="#Khalib"/>
+        <NamedIndividual IRI="#Iron_metallurgy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#characterize"/>
+        <NamedIndividual IRI="#Making_Iron_Tools"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#had"/>
+        <NamedIndividual IRI="#Mesopotamia"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contribute"/>
+        <NamedIndividual IRI="#Meteoric_iron"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#was_before"/>
+        <NamedIndividual IRI="#Meteoric_iron"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describe"/>
+        <NamedIndividual IRI="#Museum_of_National_Antiquities_in_Saint-Germain-en-Laye"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#introduced_the_concept"/>
+        <NamedIndividual IRI="#National_Museum_of_Denmark"/>
+        <NamedIndividual IRI="#Bronze_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#introduced_the_concept"/>
+        <NamedIndividual IRI="#National_Museum_of_Denmark"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#introduced_the_concept"/>
+        <NamedIndividual IRI="#National_Museum_of_Denmark"/>
+        <NamedIndividual IRI="#Stone_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contribute"/>
+        <NamedIndividual IRI="#Raw_Material_Reserves"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#had"/>
+        <NamedIndividual IRI="#Southern_Europe"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#characterize"/>
+        <NamedIndividual IRI="#Spread_Of_Iron_Metallurgy"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#was_before"/>
+        <NamedIndividual IRI="#Stone_Age"/>
+        <NamedIndividual IRI="#Bronze_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contribute"/>
+        <NamedIndividual IRI="#Trading"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#had"/>
+        <NamedIndividual IRI="#Western_Asia"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describe"/>
+        <NamedIndividual IRI="#poem_Works_and_Days"/>
+        <NamedIndividual IRI="#Iron_Age"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#start_date"/>
+        <NamedIndividual IRI="#Stone_Age"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">-1200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#start_date"/>
+        <NamedIndividual IRI="#Stone_Age"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">300</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Included"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#describe"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#introduced_the_concept"/>
+        <ObjectProperty IRI="#describe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#was_after"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#had"/>
+        <ObjectProperty IRI="#was_typical_for"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#was_after"/>
+        <ObjectProperty IRI="#was_before"/>
+    </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#had"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#was_typical_for"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#introduced_the_concept"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#introduced_the_concept"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#was_before"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#introduced_the_concept"/>
+        <Class IRI="#Sources"/>
+    </ObjectPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#end_date"/>
+        <Class IRI="#Epoch"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#end_date"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Iron_Age</IRI>
+        <Literal>Період ранньої історії людства, який визначається розвитком металургії і використанням залізних виробів (ножі, сокири, посуд, зброя, прикраси тощо).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#introduced_the_concept</IRI>
+        <Literal>джерело, що відкрило поняття</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
